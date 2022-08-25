@@ -1,0 +1,106 @@
+header {
+      background-color: #fdd3e0;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: fixed;
+      top: 23px;
+      right: 174px;
+      left: 174px;
+      z-index: 100;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.15s linear;
+}
+
+#header-logo {
+      height: 125px;
+      width: 125px;
+      justify-self: center;
+      align-self: center;
+      transition: all 0.15s;
+      aspect-ratio: 1;
+      position: absolute;
+}
+
+#HeaderBowEndRight{
+      position: absolute;
+      left: -85px;
+      height: 100%;
+      width: 100px;
+      transition: all 0.15s linear;
+      z-index: -1;
+}
+
+#HeaderBowEndLeft {
+      position: absolute;
+      right: -85px;
+      height: 100%;
+      width: 100px;
+      transition: all 0.15s linear;
+      z-index: -1;
+}
+
+/* Header Button Styles */
+header ul {
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      position: absolute;
+      right: 0;
+}
+
+header ul li {
+      padding: 7.5px 23px;
+      margin-right: 15px;
+      background-color: #e5beca30;
+      border-radius: 100px;
+      border-width: 1px;
+      border-color: white;
+      border-style: solid;
+      transition: all 0.08s;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+}
+
+header ul li img {
+      display: inline-block;
+      height: 20px;
+      margin-right: 7px;
+      transition: all 0.08s;
+      pointer-events: none;
+      filter: invert(100%) sepia(3%) saturate(1618%) hue-rotate(224deg) brightness(124%) contrast(100%);
+      transition: all 0.08s;
+}
+
+header ul li a {
+      text-decoration: none;
+      color: white;
+}
+
+.hover_header_button {
+      background-color: #fff;
+      padding: 8.5px 28px;
+      margin-right: 10px;
+      margin-left: -5px;
+}
+
+.hover_header_button:active {
+      opacity: 0.8;
+      padding: 8px 26px;
+      margin-right: 12px;
+      margin-left: -3px;
+}
+
+.hover_header_text {
+      color: #fdd3e0;
+}
+
+.hover_header_img {
+      filter: invert(89%) sepia(2%) saturate(4604%) hue-rotate(296deg) brightness(100%) contrast(99%);
+}
