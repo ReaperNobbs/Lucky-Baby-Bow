@@ -7,7 +7,7 @@ function OnHoverHeaderButton(button, image, text) {
 
       fileName = fileName.slice(0, fileName.length - 4) + "Fill.png";
 
-      image.src = "/Resources/Icons/" + fileName
+      image.src = "Resources/Icons/" + fileName
       image.className = "hover_header_img"
 };
 
@@ -20,6 +20,6 @@ function OnStopHoverHeaderButton(button, image, text) {
 
       fileName = fileName.slice(0, fileName.length - 8) + ".png";
 
-      image.src = "/Resources/Icons/" + fileName;
+      image.src = "Resources/Icons/" + fileName;
       image.className = "";
 };
