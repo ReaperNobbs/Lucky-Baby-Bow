@@ -75,5 +75,4 @@ Add_Bow('test', "Resources/Laco.jpg", "Personalizável Elástico e Gancho", "8.5
 Add_Bow('test', "Resources/Laco.jpg", "Personalizável Elástico e Gancho", "8.50", "")
 Add_Bow('test', "Resources/Laco.jpg", "Personalizável Elástico e Gancho", "8.50", "")
 Add_Bow('test', "Resources/Laco.jpg", "Personalizável Elástico e Gancho", "8.50", "")
-Add_Bow('test', "Resources/Laco.jpg", "Personalizável Elástico e Gancho", "8.50", "")
 Add_Bow('Laço Vermelho', "Resources/Laco.jpg", "Personalizável Elástico e Gancho", "7.00", "Laço com fitas rosas escuras e brancas com logótipo no meio.")
